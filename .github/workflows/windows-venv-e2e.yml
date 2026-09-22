@@ -1,3 +1,4 @@
+
 name: Windows venv-holder live E2E
 
 # ON-DEMAND ONLY (fleet-update #91277, venv-holder consolidation work).
@@ -13,10 +14,8 @@ name: Windows venv-holder live E2E
 # keep dormant after the venv-holder work lands.
 
 on:
-  push:
-    branches:
-      - "wine2e/**"
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 

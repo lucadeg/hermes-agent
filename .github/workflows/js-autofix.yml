@@ -1,3 +1,4 @@
+
 name: auto-fix lint issues & formatting
 
 # On push to main (or manual trigger), run `npm run fix` on each workspace
@@ -35,18 +36,9 @@ name: auto-fix lint issues & formatting
 #      on the current state.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '**/*.js'
-      - '**/*.cjs'
-      - '**/*.mjs'
-      - '**/*.ts'
-      - '**/*.tsx'
-      - 'package.json'
-      - 'package-lock.json'
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read # default; apply-patch job overrides to write
 

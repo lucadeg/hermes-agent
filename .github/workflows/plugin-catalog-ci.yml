@@ -1,3 +1,4 @@
+
 name: Plugin Catalog CI
 
 # Admission gate for plugin-catalog entries. Fires ONLY on PRs touching
@@ -11,10 +12,8 @@ name: Plugin Catalog CI
 #                            `hermes plugins validate`.
 
 on:
-  pull_request:
-    paths:
-      - "plugin-catalog/**"
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 

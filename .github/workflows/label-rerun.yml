@@ -1,3 +1,4 @@
+
 name: Label rerun
 
 # When the ``ci-reviewed`` label is added to a PR, rerun all failed jobs in
@@ -14,9 +15,8 @@ name: Label rerun
 # rerun results.
 
 on:
-  pull_request:
-    types: [labeled]
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   actions: write
   pull-requests: read

@@ -1,3 +1,4 @@
+
 name: Skills Index Freshness Check
 
 # Belt-and-suspenders for the twice-daily build_skills_index pipeline.
@@ -8,10 +9,9 @@ name: Skills Index Freshness Check
 # Triggered every 4 hours so we catch a stuck cron within one tick.
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
   issues: write

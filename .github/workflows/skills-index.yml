@@ -1,16 +1,9 @@
+
 name: Build Skills Index
 
 on:
-  schedule:
-    # Run twice daily: 6 AM and 6 PM UTC
-    - cron: "0 6,18 * * *"
   workflow_dispatch: # Manual trigger
-  push:
-    branches: [main]
-    paths:
-      - "scripts/build_skills_index.py"
-      - ".github/workflows/skills-index.yml"
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
   actions: write # to trigger deploy-site.yml on schedule
