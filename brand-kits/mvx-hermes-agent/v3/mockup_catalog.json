@@ -1,0 +1,52 @@
+{
+  "version": "3.0",
+  "project": "MVX Hermes Agent",
+  "status": "planned",
+  "groups": [
+    {
+      "id": "AGENT-BRAND",
+      "items": [
+        "AGENT-MOCK-001 North-star agent home",
+        "AGENT-MOCK-002 MVX Hermes identity",
+        "AGENT-MOCK-003 Desktop launch/welcome",
+        "AGENT-MOCK-004 Conversation workspace",
+        "AGENT-MOCK-005 Tool execution visual language",
+        "AGENT-MOCK-006 Agent/subagent identity",
+        "AGENT-MOCK-007 Notification system",
+        "AGENT-MOCK-008 Cross-platform messaging",
+        "AGENT-MOCK-009 Voice/vision interaction",
+        "AGENT-MOCK-010 Settings/theme system"
+      ]
+    },
+    {
+      "id": "AGENT-RUNTIME",
+      "items": [
+        "AGENT-MOCK-011 TUI command center",
+        "AGENT-MOCK-012 Skills hub",
+        "AGENT-MOCK-013 Toolbox/MCP manager",
+        "AGENT-MOCK-014 Memory & recall center",
+        "AGENT-MOCK-015 Cron/automation center",
+        "AGENT-MOCK-016 Subagent/swarm control",
+        "AGENT-MOCK-017 Session/context inspector",
+        "AGENT-MOCK-018 Model/provider router",
+        "AGENT-MOCK-019 Files/workspace view",
+        "AGENT-MOCK-020 Project Control Plane workflow"
+      ]
+    },
+    {
+      "id": "AGENT-GOVERN",
+      "items": [
+        "AGENT-MOCK-021 Permissions & approvals",
+        "AGENT-MOCK-022 Security/sandbox status",
+        "AGENT-MOCK-023 Usage/cost monitoring",
+        "AGENT-MOCK-024 Logs/observability",
+        "AGENT-MOCK-025 Plugin management",
+        "AGENT-MOCK-026 Device/runtime backends",
+        "AGENT-MOCK-027 Health/recovery",
+        "AGENT-MOCK-028 Update/version management",
+        "AGENT-MOCK-029 Test/evidence dashboard",
+        "AGENT-MOCK-030 Admin/governance center"
+      ]
+    }
+  ]
+}

@@ -262,3 +262,10 @@ scripts/run_tests.sh
 MIT — see [LICENSE](LICENSE).
 
 Built by [Nous Research](https://nousresearch.com).
+
+
+## MVX Product Control Plane v3 workflow
+
+This fork includes a bundled `product-control-plane-brand-kit-v3` skill for substantial product creation. The workflow establishes premium visual references, deterministic product/backend contracts, TDD tests, Definition of Done and traceability before implementation.
+
+The MVX Hermes Agent's own v3 brand-kit workspace lives at `brand-kits/mvx-hermes-agent/v3/` and is currently blocked pending its dedicated premium visual program.

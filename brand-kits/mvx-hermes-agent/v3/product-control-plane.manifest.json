@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "project_id": "MVX-HERMES-AGENT",
+  "project_name": "MVX Hermes Agent",
+  "status": "visual-discovery",
+  "implementation_gate": "blocked",
+  "foundation": {
+    "type": "native-existing-stack",
+    "reason": "MVX Hermes Agent is the agent runtime itself; Open Mercato is a default foundation only for suitable business applications created through the workflow."
+  },
+  "application_surfaces": [
+    "Desktop Agent",
+    "TUI/CLI",
+    "Gateway/Messaging",
+    "Skills & Tools",
+    "Memory & Context",
+    "Settings/Admin"
+  ],
+  "mockups": {
+    "target_minimum": 30,
+    "planned": 30,
+    "approved": 0
+  },
+  "development": {
+    "method": "tdd",
+    "definition_of_done_hard_gate": true
+  },
+  "backend_definition": {
+    "functional": false,
+    "technical": false,
+    "strategic": false,
+    "managerial": false
+  },
+  "traceability": {
+    "required": true,
+    "graph": "Mock ID -> Feature ID -> Surface -> Runtime Module -> Tool/API/Event -> Test IDs -> DoD -> PR/Release"
+  }
+}
